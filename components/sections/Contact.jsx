@@ -98,7 +98,7 @@ export default function Contact() {
                     <CheckCircle size={52} style={{ color:'var(--red)' }} className="mb-4 mx-auto"/>
                   </motion.div>
                   <h4 className="font-display text-xl font-bold mb-2" style={{ color:'var(--text)' }}>Message Sent!</h4>
-                  <p className="text-sm mb-6" style={{ color:'var(--text2)' }}>I'll get back to you as soon as possible.</p>
+                  <p className="text-sm mb-6" style={{ color:'var(--text2)' }}>I&apos;ll get back to you as soon as possible.</p>
                   <button onClick={() => setStatus('idle')} className="btn-secondary text-xs px-6 py-2">Send Another</button>
                 </motion.div>
               ) : (

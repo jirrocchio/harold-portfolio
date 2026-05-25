@@ -17,7 +17,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto">
         <motion.div initial={{ opacity:0, y:24 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true }}>
           <div className="section-tag">04 — Projects</div>
-          <h2 className="section-heading">What I've Built</h2>
+          <h2 className="section-heading">What I&apos;ve Built</h2>
           <div className="section-line"/>
         </motion.div>
 
