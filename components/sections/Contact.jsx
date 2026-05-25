@@ -36,7 +36,7 @@ export default function Contact() {
       <div className="max-w-6xl mx-auto">
         <motion.div initial={{ opacity:0, y:24 }} whileInView={{ opacity:1, y:0 }} viewport={{ once:true }}>
           <div className="section-tag">07 — Contact</div>
-          <h2 className="section-heading">Let's Work Together</h2>
+          <h2 className="section-heading">Let&apos;s work together</h2>
           <div className="section-line"/>
         </motion.div>
 
@@ -45,7 +45,7 @@ export default function Contact() {
           <motion.div initial={{ opacity:0, x:-24 }} whileInView={{ opacity:1, x:0 }} viewport={{ once:true }}>
             <h3 className="font-display text-2xl font-bold mb-4" style={{ color:'var(--text)' }}>Open to Opportunities</h3>
             <p className="text-sm leading-loose mb-8" style={{ color:'var(--text2)' }}>
-              Whether you need a developer, designer, virtual assistant, or a versatile team member — I'd love to connect. Based in Nueva Ecija, Philippines. Available remotely worldwide.
+              Whether you need a developer, designer, virtual assistant, or a versatile team member — I&apos;d love to connect. Based in Nueva Ecija, Philippines. Available remotely worldwide.
             </p>
 
             <div className="space-y-3 mb-8">
